@@ -24,7 +24,7 @@ st.title('Prediksi Waktu Kelulusan Mahasiswa TI UNTIRTA')
 Nama_Lengkap = st.text_input("Nama Lengkap: ")
 
 # Masukkan NIM
-NIM = st.number_input("NIM:", min_value=0, max_value=3333999999, value=0)
+NIM = st.number_input("NIM:", min_value=3333000000, max_value=3333999999, value=0)
 
 # Set st.session_state setelah pengguna memasukkan Nama dan NIM
 if Nama_Lengkap:
