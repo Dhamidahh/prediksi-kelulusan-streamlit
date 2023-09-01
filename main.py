@@ -18,10 +18,7 @@ X_train = joblib.load('X_train.pkl')
 y_train = joblib.load('y_train.pkl')
 
 # Judul aplikasi
-st.title('Prediksi Kelulusan Tepat Waktu')
-
-# Judul header dan masukkin nama
-st.header("Aplikasi Prediksi Kelulusan Mahasiswa TI UNTIRTA")
+st.title('Prediksi Waktu Kelulusan Mahasiswa TI UNTIRTA')
 
 # Masukkan Nama
 Nama_Lengkap = st.text_input("Nama_Lengkap: ")
