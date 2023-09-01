@@ -21,7 +21,7 @@ y_train = joblib.load('y_train.pkl')
 st.title('Prediksi Waktu Kelulusan Mahasiswa TI UNTIRTA')
 
 # Masukkan Nama
-Nama_Lengkap = st.text_input("Nama_Lengkap: ")
+Nama_Lengkap = st.text_input("Nama Lengkap: ")
 
 # Masukkan NIM
 NIM = st.number_input("NIM:", min_value=0, max_value=3333999999, value=0)
