@@ -70,7 +70,7 @@ Mekanika_Teknik = st.number_input("Masukkan Nilai Mekanika Teknik", 0.0, max(dat
 Material_Teknik = st.number_input("Masukkan Nilai Material Teknik", 0.0, max(data["Material_Teknik"]), 4.0, 0.0)
 Pemrograman_Komputer = st.number_input("Masukkan Nilai Pemrograman Komputer", 0.0, max(data["Pemrograman_Komputer"]),
                                        4.0, 0.0)
-Penelitian_Operasional_1 = st.number_input("Masukkan Nilai Penelitian Operasional", 0.0,
+Penelitian_Operasional_1 = st.number_input("Masukkan Nilai Penelitian Operasional 1", 0.0,
                                            max(data["Penelitian_Operasional"]), 4.0, 0.0)
 Praktikum_Material = st.number_input("Masukkan Nilai Prakikum Material", 0.0, max(data["Praktikum_Material"]), 4.0, 0.0)
 Praktikum_Pemrograman_Komputer = st.number_input("Masukkan Nilai Praktikum Pemrograman Komputer", 0.0,
@@ -98,7 +98,7 @@ Mekatronika_dan_Opimasi_Sistem_Produksi = st.number_input("Masukkan Nilai Mekatr
 Pemodelan_Sistem = st.number_input("Masukkan Nilai Pemodelan Sistem", 0.0, max(data["Pemodelan_Sistem"]), 4.0, 0.0)
 Pengendalian_dan_Penjaminan_Mutu = st.number_input("Masukkan Nilai Pengendalian dan Penjaminan Mutu", 0.0,
                                                    max(data["Pengendalian_dan_Penjaminan_Mutu"]), 4.0, 0.0)
-Perancangan_Tata_Letak_Fasilitas = st.number_input("Masukkan Nilai Perancangan Tat Letak Fasilitas", 0.0,
+Perancangan_Tata_Letak_Fasilitas = st.number_input("Masukkan Nilai Perancangan Tata Letak Fasilitas", 0.0,
                                                    max(data["Perancangan_Tata_Letak_Fasilitas"]), 4.0, 0.0)
 Perencanaan_dan_Pengendalian_Produksi = st.number_input("Masukkan Nilai Perancangan dan Pengendalian Produksi", 0.0,
                                                         max(data["Perencanaan_dan_Pengendalian_Produksi"]), 4.0, 0.0)
