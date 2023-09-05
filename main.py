@@ -64,7 +64,7 @@ Praktikum_Fisika_Dasar = st.number_input("Masukkan Nilai Praktikum Disika Dasar"
 Praktikum_Menggambar_Teknik = st.number_input("Masukkan Nilai Praktikum Menggambar Teknik", 0.0,
                                               max(data["Praktikum_Menggambar_Teknik"]), 4.0, 0.0)
 Aljabar_Linear = st.number_input("Masukkan Nilai Aljabar Linear", 0.0, max(data["Aljabar_Linear"]), 4.0)
-Ergonomi_dan_Perancangan_Sistem_Kerja_1 = st.number_input("Masukkan Nilai Ergonomi dan Perancangan Sistem Kerja", 0.0,
+Ergonomi_dan_Perancangan_Sistem_Kerja_1 = st.number_input("Masukkan Nilai Ergonomi dan Perancangan Sistem Kerja 1", 0.0,
                                                           max(data["Ergonomi_dan_Perancangan_Sistem_Kerja_1"]), 4.0, 0.0)
 Mekanika_Teknik = st.number_input("Masukkan Nilai Mekanika Teknik", 0.0, max(data["Mekanik_Teknik"]), 4.0, 0.0)
 Material_Teknik = st.number_input("Masukkan Nilai Material Teknik", 0.0, max(data["Material_Teknik"]), 4.0, 0.0)
@@ -76,7 +76,7 @@ Praktikum_Material = st.number_input("Masukkan Nilai Prakikum Material", 0.0, ma
 Praktikum_Pemrograman_Komputer = st.number_input("Masukkan Nilai Praktikum Pemrograman Komputer", 0.0,
                                                  max(data["Praktikum_Pemrograman_Komputer"]), 4.0, 0.0)
 Proses_Manufaktur = st.number_input("Masukkan Nilai Proses Manufaktur", 0.0, max(data["Proses_Manufaktur"]), 4.0, 0.0)
-Statistika_Industri = st.number_input("Masukkan Nilai Statistika Industri", 0.0, max(data["Statistika_Industri"]), 4.0)
+Statistika_Industri = st.number_input("Masukkan Nilai Statistika Industri 1", 0.0, max(data["Statistika_Industri"]), 4.0)
 Analisis_Biaya = st.number_input("Masukkan Nilai Analisis Biaya", 0.0, max(data["Analisis_Biaya"]), 4.0, 0.0)
 Ergonomi_dan_Perancangan_Sistem_Kerja_2 = st.number_input("Masukkan Nilai Ergonomi dan Perancangan Sistem Kerja 2", 0.0,
                                                           max(data["Ergonomi_dan_Perancangan_Sistem_Kerja_2"]), 4.0, 0.0)
