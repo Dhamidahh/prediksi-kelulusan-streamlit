@@ -18,7 +18,7 @@ X_train = joblib.load('X_train.pkl')
 y_train = joblib.load('y_train.pkl')
 
 # Judul aplikasi
-st.title('Prediksi Waktu Kelulusan Mahasiswa TI UNTIRTA')
+st.title('Prediksi Kelulusan Mahasiswa TI UNTIRTA')
 
 # Masukkin gambar
 img = Image.open('Logo Univ.jpg')
