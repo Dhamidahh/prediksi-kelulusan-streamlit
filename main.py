@@ -20,6 +20,11 @@ y_train = joblib.load('y_train.pkl')
 # Judul aplikasi
 st.title('Prediksi Waktu Kelulusan Mahasiswa TI UNTIRTA')
 
+# Masukkin gambar
+img = Image.open('Logo Univ.jpg')
+img = img.resize((300, 300))
+st.image(img, use_column_width=False)
+
 # Masukkan Nama
 Nama_Lengkap = st.text_input("Nama Lengkap: ")
 
@@ -35,8 +40,8 @@ if NIM:
 
 # Masukkin gambar
 st.subheader('Keterangan Nilai Bobot Mata Kuliah')
-img = Image.open('Nilai Bobot Mata Kuliah..jpg')
-img = img.resize((300, 600))
+img = Image.open('Nilai Bobot Mata Kuliah.jpg')
+img = img.resize((300, 300))
 st.image(img, use_column_width=False)
 
 
