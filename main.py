@@ -36,7 +36,7 @@ if NIM:
 # Masukkin gambar
 st.subheader('Keterangan Nilai Bobot Mata Kuliah')
 img = Image.open('Nilai Bobot Mata Kuliah..jpg')
-img = img.resize((300, 300))
+img = img.resize((600, 300))
 st.image(img, use_column_width=False)
 
 
