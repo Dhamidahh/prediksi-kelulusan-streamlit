@@ -35,7 +35,7 @@ if NIM:
 
 # Masukkin gambar
 st.subheader('Keterangan Nilai Bobot Mata Kuliah')
-img = Image.open('Nilai Bobot Mata Kuliah.jpg')
+img = Image.open('Nilai Bobot Mata Kuliah..jpg')
 img = img.resize((300, 300))
 st.image(img, use_column_width=False)
 
@@ -160,5 +160,3 @@ if st.button('Prediksi'):
         st.write('Hasil Prediksi: Lulus Tepat Waktu')
     else:
         st.write('Hasil Prediksi: Tidak Lulus Tepat Waktu')
-
-    st.write("Apabila Anda ingin bertanya, silahkan hubungi dhinihamidah11@gmail.com")
