@@ -118,7 +118,7 @@ Kerja_Praktek = st.number_input("Masukkan Nilai Kerja Praktek", 0.0, max(data["K
 Kesehatan_dan_Keselamatan_Kerja = st.number_input("Masukkan Nilai Kesehatan dan Keselamatan Kerja", 0.0,
                                                   max(data["Kesehatan_dan_Keselamatan_Kerja"]), 4.0, 0.0)
 Organisasi_dan_Manajemen_Perusahaan_Industri = st.number_input(
-    "Masukkan Nilai Oragnisasi dan Manajemen Perusahaan Industri", 0.0,
+    "Masukkan Nilai Organisasi dan Manajemen Perusahaan Industri", 0.0,
     max(data["Organisasi_dan_Manajemen_Perusahaan_Industri"]), 4.0, 0.0)
 Praktikum_Perancangan_Teknik_Industri_3 = st.number_input("Masukkan Nilai Praktikum dan Perancangan Teknik Industri 3",
                                                           0.0, max(data["Praktikum_Perancangan_Teknik_Industri_2"]),
