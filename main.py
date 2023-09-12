@@ -22,7 +22,8 @@ st.title('Prediksi Kelulusan Mahasiswa TI UNTIRTA')
 
 # Masukkin gambar
 img = Image.open('Logo Univ.jpg')
-st.image(img, use_column_width=False)
+img = img.resize((300, 300))
+st.image(img, use_column_width=True)
 
 # Masukkan Nama
 Nama_Lengkap = st.text_input("Nama Lengkap: ")
@@ -41,7 +42,7 @@ if NIM:
 st.subheader('Keterangan Nilai Bobot Mata Kuliah')
 img = Image.open('Nilai Bobot Mata Kuliah.jpg')
 img = img.resize((300, 300))
-st.image(img, use_column_width=False)
+st.image(img, use_column_width=True)
 
 
 # Fungsi untuk melakukan prediksi
