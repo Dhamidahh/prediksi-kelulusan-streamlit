@@ -22,7 +22,7 @@ st.title('Prediksi Waktu Kelulusan Mahasiswa TI UNTIRTA')
 
 # Masukkin gambar
 img = Image.open('Logo Univ.jpg')
-img = img.resize((100, 100))
+img = img.resize((50, 50))
 st.image(img, use_column_width=True)
 
 # Masukkan Nama
