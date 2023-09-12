@@ -64,7 +64,7 @@ Fisika_Dasar_2 = st.number_input("Masukkan Nilai Fisika Dasar 2", 0.0, max(data[
 Kalkulus_2 = st.number_input("Masukkan Nilai Kalkulus 2", 0.0, max(data["Kalkulus_2"]), 4.0, 0.0)
 Menggambar_Teknik = st.number_input("Masukkan Nilai Menggambar Teknik", 0.0, max(data["Menggambar_Teknik"]), 4.0, 0.0)
 Pengantar_Ekonomika = st.number_input("Masukkan Nilai Pengantar Ekonomika", 0.0, max(data["Pengantar_Ekonomika "]), 4.0, 0.0)
-Praktikum_Fisika_Dasar = st.number_input("Masukkan Nilai Praktikum Disika Dasar", 0.0,
+Praktikum_Fisika_Dasar = st.number_input("Masukkan Nilai Praktikum Fisika Dasar", 0.0,
                                          max(data["Praktikum_Fisika_Dasar"]), 4.0, 0.0)
 Praktikum_Menggambar_Teknik = st.number_input("Masukkan Nilai Praktikum Menggambar Teknik", 0.0,
                                               max(data["Praktikum_Menggambar_Teknik"]), 4.0, 0.0)
