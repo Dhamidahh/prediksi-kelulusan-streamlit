@@ -77,7 +77,7 @@ Pemrograman_Komputer = st.number_input("Masukkan Nilai Pemrograman Komputer", 0.
                                        4.0, 0.0)
 Penelitian_Operasional_1 = st.number_input("Masukkan Nilai Penelitian Operasional 1", 0.0,
                                            max(data["Penelitian_Operasional"]), 4.0, 0.0)
-Praktikum_Material = st.number_input("Masukkan Nilai Prakikum Material", 0.0, max(data["Praktikum_Material"]), 4.0, 0.0)
+Praktikum_Material = st.number_input("Masukkan Nilai Praktikum Material", 0.0, max(data["Praktikum_Material"]), 4.0, 0.0)
 Praktikum_Pemrograman_Komputer = st.number_input("Masukkan Nilai Praktikum Pemrograman Komputer", 0.0,
                                                  max(data["Praktikum_Pemrograman_Komputer"]), 4.0, 0.0)
 Proses_Manufaktur = st.number_input("Masukkan Nilai Proses Manufaktur", 0.0, max(data["Proses_Manufaktur"]), 4.0, 0.0)
@@ -85,7 +85,7 @@ Statistika_Industri = st.number_input("Masukkan Nilai Statistika Industri 1", 0.
 Analisis_Biaya = st.number_input("Masukkan Nilai Analisis Biaya", 0.0, max(data["Analisis_Biaya"]), 4.0, 0.0)
 Ergonomi_dan_Perancangan_Sistem_Kerja_2 = st.number_input("Masukkan Nilai Ergonomi dan Perancangan Sistem Kerja 2", 0.0,
                                                           max(data["Ergonomi_dan_Perancangan_Sistem_Kerja_2"]), 4.0, 0.0)
-Matematika_Optimasi = st.number_input("Masukkan Nilai Penelitian Operasional 2", 0.0, max(data["Matematika_Optimasi"]),
+Matematika_Optimasi = st.number_input("Masukkan Nilai Matematika Optimasi 2", 0.0, max(data["Matematika_Optimasi"]),
                                       4.0, 0.0)
 Perancangan_dan_Pengembangan_Produk = st.number_input("Masukkan Nilai Perancangan dan Pengembangan Produk", 0.0,
                                                       max(data["Perancangan_dan_Pengembangan _Produk "]), 4.0)
@@ -126,7 +126,7 @@ Praktikum_Perancangan_Teknik_Industri_3 = st.number_input("Masukkan Nilai Prakti
 Simulasi_Komputer = st.number_input("Masukkan Nilai Simulasi Komputer", 0.0, max(data["Simulasi_Komputer"]), 4.0, 0.0)
 Sistem_Produksi = st.number_input("Masukkan Nilai Sistem Produksi", 0.0, max(data["Sistem_Produksi"]), 4.0, 0.0)
 Kewirausahaan = st.number_input("Masukkan Nilai Kewirausahaan", 0.0, max(data["Kewirausahaan"]), 4.0, 0.0)
-Manajemen_Pemasaran = st.number_input("Masukkan Nilai Manajemen Perusahaan", 0.0, max(data["Manajemen_Pemasaran"]), 4.0, 0.0)
+Manajemen_Pemasaran = st.number_input("Masukkan Nilai Manajemen Pemasaran", 0.0, max(data["Manajemen_Pemasaran"]), 4.0, 0.0)
 Metodologi_Penelitian = st.number_input("Masukkan Nilai Metodologi Peneltian", 0.0, max(data["Metodologi_Penelitian"]),
                                         4.0, 0.0)
 Sistem_Rantai_Pasok = st.number_input("Masukkan Nilai Sistem Rantai Pasok", 0.0, max(data["Sistem_Rantai_Pasok"]), 4.0, 0.0)
