@@ -164,4 +164,4 @@ if st.button('Prediksi'):
     if prediction == 1:
         st.write('Hasil Prediksi: Lulus Tepat Waktu')
     else:
-        st.write('Hasil Prediksi: Tidak Lulus Tepat Waktu')
+        st.write('Hasil Prediksi: Lulus Tidak Tepat Waktu')
