@@ -85,7 +85,7 @@ Statistika_Industri = st.number_input("Masukkan Nilai Statistika Industri 1", 0.
 Analisis_Biaya = st.number_input("Masukkan Nilai Analisis Biaya", 0.0, max(data["Analisis_Biaya"]), 4.0, 0.0)
 Ergonomi_dan_Perancangan_Sistem_Kerja_2 = st.number_input("Masukkan Nilai Ergonomi dan Perancangan Sistem Kerja 2", 0.0,
                                                           max(data["Ergonomi_dan_Perancangan_Sistem_Kerja_2"]), 4.0, 0.0)
-Matematika_Optimasi = st.number_input("Masukkan Nilai Matematika Optimasi 2", 0.0, max(data["Matematika_Optimasi"]),
+Matematika_Optimasi = st.number_input("Masukkan Nilai Matematika Optimasi", 0.0, max(data["Matematika_Optimasi"]),
                                       4.0, 0.0)
 Perancangan_dan_Pengembangan_Produk = st.number_input("Masukkan Nilai Perancangan dan Pengembangan Produk", 0.0,
                                                       max(data["Perancangan_dan_Pengembangan _Produk "]), 4.0)
